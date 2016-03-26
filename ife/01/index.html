@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<!--
+        	作者：hbxglong@163.com
+        	时间：2016-03-20
+        	描述：百度前端学院第一阶段第一个任务代码
+        -->
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+
+	</head>
+	<body  bgcolor="beige">
+		<h1 align="center">百度前端学院第一阶段任务一</h1>	
+		<hr />
+		<ul>
+			<li><a href="http://ife.baidu.com/task/detail?taskId=1">任务链接一</a></li>
+			<li><a href="http://ife.baidu.com/task/detail?taskId=2">任务链接二</a></li>
+			<li><a href="http://ife.baidu.com/task/detail?taskId=3">任务链接三</a></li>
+			<li><a href="http://ife.baidu.com/task/detail?taskId=4">任务链接四</a></li>
+		</ul>
+		<h2>NodeJS基础</h2>
+		<h3>什么是NodeJS</h3>
+	 	<h4>黄龙 2016-03-20</h4>
+		<p>JS是脚本语言，脚本语言都需要一个解析器才能运行。对于写在HTML页面里的JS，浏览器充
+			当了解析器的角色。而对于需要独立运行的JS，NodeJS就是一个解析器。<br/>每一种解析
+			器都是一个运行环境，不但允许JS定义各种数据结构，进行各种计算，<a href="http://ife.baidu.com">点击进入百度前端学院</a>
+			提供的内置对象和方法做一些事情。<b>加粗文字示例</b>例如运行在浏览器中的JS的用途是操作DOM，浏览器
+			就提供了document之类的内置对象。而运行在NodeJS中的JS的用途是操作磁盘文件或搭建
+			HTTP服务器，NodeJS就相应提供了fs、http等内置对象。</p>
+			
+		<img src="http://img10.3lian.com/sc6/show02/67/29/03.jpg" width="522" height="250" alt="浏览器不支持真悲伤"/>
+		<p>NodeJS的作者说，他创造NodeJS的目的是为了实现高性能Web服务器，他首先看重的是事件机制和异步IO模型的优越性，而不是JS。<br/>
+			但是他需要选择一种编程语言实现他的想法，这种编程语言不能自带IO功能，并且需要能良好支持事件机制。<br/>JS没有自带IO功能，天生就用于处理浏览器中的DOM事件，
+			<a href="http://ife.baidu.com" target="_blank">百度前端学院新开窗口</a>并且拥有一大群程序员，因此就成为了天然的选择。</p>
+	
+	
+		<h2>代码的组织和部署</h2>
+		<h3>模块路径解析规则</h3>
+		<h4>黄龙 2016-03-20</h4>
+		<p>让前端觉得如获神器的不是NodeJS能做网络编程，而是NodeJS能够操作文件。小至文件查找，大至代码编译，<br/>
+			几乎没有一个前端工具不操作文件。换个角度讲，几乎也只需要一些数据处理逻辑，再加上一些文件操作，
+			就能够编写出大多数前端工具。本章将介绍与之相关的NodeJS内置模块。<a href="http://ife.baidu.com">详情点击百度前端学院官网</a>然后下面的图片是网络图片
+		</p>	
+		<img src="http://img10.3lian.com/sc6/show02/67/27/02.jpg" width="500" height="300" alt="哎呀加载失败了，请重新加载"/>
+		<ul>
+			<li>之后的都是网络图片</li>
+			<li>比如下面的这几张图</li>
+			<li>都是从百度找到的图</li>
+			<li>摄影相关的大图缩小</li>
+		</ul>
+		<h2>摄影集锦</h2>
+		<img src="http://img10.3lian.com/sc6/show02/67/27/03.jpg" width="500" height="300" alt="哎呀加载失败了，请重新加载"/>
+		<img src="http://img10.3lian.com/sc6/show02/67/27/04.jpg" width="500" height="300" alt="哎呀加载失败了，请重新加载"/>
+		<img src="http://img10.3lian.com/sc6/show02/67/27/05.jpg" width="500" height="300" alt="哎呀加载失败了，请重新加载"/>
+		<img src="http://img10.3lian.com/sc6/show02/67/27/06.jpg" width="500" height="300" alt="哎呀加载失败了，请重新加载"/>
+		<img src="http://img10.3lian.com/sc6/show02/67/28/01.jpg" width="500" height="300" alt="哎呀加载失败了，请重新加载"/>
+		<img src="http://img10.3lian.com/sc6/show02/67/28/02.jpg" width="500" height="300" alt="哎呀加载失败了，请重新加载"/>
+		<img src="http://img10.3lian.com/sc6/show02/67/28/03.jpg" width="500" height="300" alt="哎呀加载失败了，请重新加载"/>
+	
+		<h2>最后一篇文章</h2>
+		<h3>有关JS的方法论</h3>
+		<h4>黄龙 2016-03-20</h4>
+		<ol>
+		<li>有序列表</li>
+		<li>有序列表样式</li>
+		<li>有序列表对应数据</li>
+		</ol>
+	
+		<table border="1">
+		<tr>
+			<td>数一</td>
+			<td>数二</td>
+			<td>数三</td>
+		</tr>
+		<tr>
+			<td>数四</td>
+			<td>数五</td>
+			<td>数六</td>
+		</tr>
+		<tr>
+			<td>数七</td>
+			<td>数八</td>
+			<td>数九</td>
+		</tr>
+		<tr>
+			<td>数十</td>
+			<td>十一</td>
+			<td>十二</td>
+		</tr>
+		<tr>
+			<td>十三</td>
+			<td>十四</td>
+			<td>十五</td>
+		</tr>
+		<tr>
+			<th>横向</th>
+			<td colspan="2">你说数据</td>
+		</tr>
+		<tr>
+			<th rowspan="2">竖向</th>
+			<td>册数</td>
+			<td>册数</td>
+			
+		</tr>
+		<tr>
+			<td>册数</td>
+			<td>册数</td>
+		</tr>
+		</table>
+	
+		<table width="500" border="1">
+			<tr>
+				<td colspan="2" style="background-color:#bbbbbb;">
+					<h2 align="center">标题文字</h2>
+				</td>
+			</tr>
+			<tr valign="top">
+				<td style="background-color:#ffffff;width:100px;text-align:center;">
+				<b>注册</b><br />
+				登录<br />
+				<td style="background-color:#EEEEEE;height:400px;width:400px;text-align:left;">
+				<h2>侧边栏注册说明</h2>
+				<form>
+					邮箱: 
+					<input type="email" name="email" />
+					<br />
+					密码: 
+					<input type="password" name="lastname" />
+					<br/>
+					重复输入密码: 
+					<input type="password" name="lastname" />
+					<br />
+					性别：
+					<input type="radio" name="sex" value="male" /> 男
+					<input type="radio" name="sex" value="female" /> 女
+					<br />
+					城市：
+					<select name="city">
+						<option value="beijing">北京</option>
+						<option value="shanghai">上海</option>
+						<option value="guangzhou">广州</option>
+						<option value="shenzhen">深圳</option>
+					</select>
+					<br />
+					爱好：
+					<input type="checkbox" name="yuedu" />阅读
+					<input type="checkbox" name="dy" />电影
+					<input type="checkbox" name="yuedu" />音乐
+					<br />
+					个人描述：
+					<textarea rows="5" cols="30"></textarea>
+					<br />
+					<input type="button" value="提交">
+				</form>
+				</td>
+			</tr>
+		
+			<tr>
+				<td colspan="2" align="center">Copyright@AK48</td>
+			</tr>
+		</table>
+	</body>
+</html>
