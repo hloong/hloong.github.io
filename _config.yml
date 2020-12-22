@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 encoding: utf-8
 
 # SEO相关信息
@@ -58,3 +59,6 @@ links:
     url: https://www.gitee.com
   - title: 我的CSDN博客
     url: https://blog.csdn.net/tmacsky
+=======
+theme: jekyll-theme-dinky
+>>>>>>> ffc64abada0ec3b0449b960b608f9243177c50e1
