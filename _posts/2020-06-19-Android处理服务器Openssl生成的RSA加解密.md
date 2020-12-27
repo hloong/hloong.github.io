@@ -1,0 +1,46 @@
+## 解决安卓极简模式或老人模式布局错位字体错位问题
+
+### 现在手机基本都包含极简模式，或者老人模式，开启后系统会自动把字体缩放到很大，如果切换成极简模式，微信会自动弹出一个弹框提示用户可以去通用设置里面设置字体大小；
+
+### 所以解决这个问题，主要就是解决字体大小问题
+
+### 一个偷懒的方法只需要在BaseActivity中 加下面几个方法，直接恢复系统默认的字体即可
+
+```
+override fun onConfigurationChanged(newConfig: Configuration) {
+    super.onConfigurationChanged(newConfig)
+    if (newConfig.fontScale != 1.0f) {
+        //刷新
+        resources
+    }
+    super.onConfigurationChanged(newConfig)
+}
+```
+```
+override fun getResources(): Resources {
+    val res = super.getResources()
+    if (res != null && res.configuration.fontScale != 1.0f) {
+                res.configuration.fontScale = 1.0f //恢复默认的[字体大小]
+        res.configuration.densityDpi = defaultDisplayDensity //恢复默认的[显示大小]
+        res.updateConfiguration(res.configuration, res.displayMetrics)
+   }
+    return res
+}
+```
+```   
+private val defaultDisplayDensity by lazy {
+    try {
+        val clazz = Class.forName("android.view.WindowManagerGlobal")
+        val method = clazz.getMethod("getWindowManagerService")
+        method.isAccessible = true
+        val iwm = method.invoke(clazz)
+        val getInitialDisplayDensity =iwm.javaClass.getMethod("getInitialDisplayDensity", Int::class.java)
+        getInitialDisplayDensity.isAccessible = true
+        val densityDpi = getInitialDisplayDensity.invoke(iwm, Display.DEFAULT_DISPLAY);
+        densityDpi as Int
+    } catch (e: Exception) {
+        e.printStackTrace()
+        -1
+    }
+}
+```
