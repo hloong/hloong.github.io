@@ -5,11 +5,16 @@ title: 关于我
 
 > Hello 陌生人，欢迎访问 hloong Blog
 
-主题采用[tmaize-blog](https://github.com/TMaize/tmaize-blog)
+## 关于我
 
-## 相关技能
+多年Android开发，带过小团队，用过Java，Kotlin，Flutter；
 
-- Java Kotlin Flutter
+2018年之前一直在互金和电商行业，2018年后来了区块链行业
+
+既做过传统互金APP，电商APP，也做过加密交易所，去中心化钱包，区块链媒体等APP
+
+最近一直在学习Solidity和go
+
 
 ## 联系我
 
