@@ -1,7 +1,7 @@
 ---
 layout: mypost
 title: Android中的圆形自定义ImageView
-categories: [Android, 技术]
+categories: [Android]
 ---
 
 ![touxiang](https://imglf4.lf127.net/img/YzdkeVlmZUkrV2xYcWppaTVTUFBaM29YSDZ4UXRSMUVGYWl1bS9mS083Rmd1Njd0Lzg0bGJRPT0.jpg)

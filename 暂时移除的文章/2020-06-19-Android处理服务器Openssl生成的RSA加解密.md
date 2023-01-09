@@ -1,7 +1,7 @@
 ---
 layout: mypost
 title: Android处理服务器Openssl生成RSA加解密
-categories: [Android, 技术]
+categories: [Android]
 ---
 
 > 一个场景：服务器会给一个公钥给客户端，客户端用该公钥加密数据传给服务器，这个过程中，服务器用的是openssl方式生成的公私钥，如果直接用android自带的工具类是无法用公钥加密的，即便后端把他们的java代码发给你，你也无法加密成功

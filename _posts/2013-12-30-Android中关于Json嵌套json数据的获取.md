@@ -1,7 +1,7 @@
 ---
 layout: mypost
 title: Android中关于Json嵌套json数据的获取
-categories: [Android, 技术]
+categories: [Android]
 ---
 以前的项目中要获取新浪微博和腾讯微博的用户互粉数据列表，之前同事用的google的Gson来解析的，但是由于我想单独从一堆数据中获取出2个指定的数据用户昵称和头像地址，所以就单独取出并赋值：
 ```

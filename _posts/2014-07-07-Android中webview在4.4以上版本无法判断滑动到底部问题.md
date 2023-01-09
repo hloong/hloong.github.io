@@ -1,7 +1,7 @@
 ---
 layout: mypost
 title: Android中webview在4.4以上版本无法判断滑动到底部问题
-categories: [Android, 技术]
+categories: [Android]
 ---
 项目中有个需求，要判断webview滑动到底部的时候就显示某个控件，向上滑动就隐藏，然后滑动到顶部就显示另外一个控件。
 

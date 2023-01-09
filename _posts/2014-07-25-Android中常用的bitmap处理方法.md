@@ -1,7 +1,7 @@
 ---
 layout: mypost
 title: Android中常用的bitmap处理方法
-categories: [Android, 技术]
+categories: [Android]
 ---
 收集了很多bitmap相关的处理方法，几乎全部应用在项目中，所以特记录下！
 

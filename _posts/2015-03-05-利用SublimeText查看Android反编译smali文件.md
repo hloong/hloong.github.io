@@ -1,7 +1,7 @@
 ---
 layout: mypost
 title: 利用SublimeText查看Android反编译smali文件
-categories: [Android, 技术]
+categories: [Android]
 ---
 ## 1，首先得下载SublimeText，网址—>http://www.sublimetext.com/,我这里下的是SublimeText 2，就以2为例了；
 

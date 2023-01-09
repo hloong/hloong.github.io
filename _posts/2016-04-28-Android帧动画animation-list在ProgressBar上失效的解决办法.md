@@ -1,7 +1,7 @@
 ---
 layout: mypost
 title: Android帧动画animation-list在ProgressBar上失效的解决办法
-categories: [Android, 技术]
+categories: [Android]
 ---
 
 # Android帧动画animation-list在ProgressBar上失效的解决办法
